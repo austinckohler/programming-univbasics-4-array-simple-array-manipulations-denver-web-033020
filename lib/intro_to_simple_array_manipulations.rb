@@ -53,7 +53,7 @@ def using_flatten(instruments)
   instruments.flatten
 end
 
-def using_delete(instructors, "Steven")
+def using_delete(instructors, steven)
   @instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  @instructors.delete("Steven")
+  @instructors.delete("steven")
 end
